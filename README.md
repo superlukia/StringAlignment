@@ -7,4 +7,4 @@
 
 比对得分参数：match3分;mismatch,ins,del,gapextend都是-1分；这些还有优化的余地。
 
-通过这个小项目理解了一些biojava中smithwaterman比对需要的一些类的配置，可以自定义Symbol，SymbolList，Alphabet，CharacterTokenization,SubstitutionMatrix
+通过这个小项目理解了一些biojava(1.7)中smithwaterman比对需要的一些类的配置，可以自定义Symbol，SymbolList，Alphabet，CharacterTokenization,SubstitutionMatrix
