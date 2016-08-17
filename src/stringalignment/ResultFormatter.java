@@ -38,7 +38,12 @@ public class ResultFormatter {
             System.out.println(m1.group(1));
         }
     }
-
+    /**
+     * 格式化输出比对结果（非ascii字符自身宽度为2，将ascii字符宽度从1补充空格成为2）
+     * 并返回比对的位置类，用于将这段抠出来，将剩余字符串继续下一轮比对
+     * @param br
+     * @return 
+     */
     public static AlignmentPos outputformat(BufferedReader br) {
         AlignmentPos result=new AlignmentPos();
         String line="";
